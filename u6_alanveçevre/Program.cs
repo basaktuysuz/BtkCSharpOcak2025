@@ -9,9 +9,8 @@ var cevre = (a+b)*2;
 var alan = (a*b);
 
 Console.Write("Dikdörtgenin kenarları ");
-Console.WriteLine(string.Format("{0}cm  ve {1}cm  ", a, b));
+//Console.WriteLine(string.Format("{0}cm  ve {1}cm  ", a, b));
 
-Console.WriteLine($"Kenarları {a}cm  ve {b}cm  olan Dik dörtgenin alanı {a} * {b} = {alan}'cm dir");//string interpolation
+Console.WriteLine($"Kenarları {a}cm  ve {b}cm  olan Dörtgenin alanı {a} * {b} = {alan}'cmdir");//string interpolation
 
-
-Console.WriteLine($"Kenarları {a}cm  ve {b}cm  olanDikdörtgenin Çevresi {cevre}'cm dir");//string interpolation
+Console.WriteLine($"Kenarları {a}cm  ve {b}cm  olan Dörtgenin Çevresi {cevre}'cmdir");//string interpolation
