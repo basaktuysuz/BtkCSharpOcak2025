@@ -1,13 +1,17 @@
-﻿//klavyeden 0 girilmiş olana kadar sayıları toplayan bir örnek
+﻿string pinKodu = "1234";
+string tahmin = "";
+int deneme = 0; //Daha hiç denemedin
 
-int sayi = 0;
-int toplam = 0;
-do 
+while(pinKodu != tahmin)//tahmin edilen doğru ise biter
 {
-    Console.WriteLine("Bir sayı girin ");
-    sayi = Convert.ToInt32( Console.ReadLine());
-    toplam += sayi;
-   
+    if(deneme > 0)//2.defa deniyorsan
+    {
+        Console.WriteLine("Bilemediniz. Tekrar deneyin.");
+    }
+
+    Console.WriteLine("Pin Kodunu Girin:");
+    tahmin = Console.ReadLine();
+    deneme++;//denediğin için 1 artır
 }
-while (sayi != 0);
-Console.WriteLine($"Toplam: {toplam} ");
+
+Console.WriteLine("TEBRİKLER BİLDİNİZ :)");
