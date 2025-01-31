@@ -1,4 +1,5 @@
-﻿namespace u44_banka_uyg;
+﻿using u45_banka_uyg;
+
 
 using System.Text.Json;
 
@@ -13,10 +14,10 @@ public class DosyaIslemleri
 
     public static List<Musteri> DosyaAc(string dosya)
     {
-        if(!File.Exists(dosya))
+        if (!File.Exists(dosya))
             return new List<Musteri>();
 
-        string dosyadanOkunan =  File.ReadAllText(dosya);
+        string dosyadanOkunan = File.ReadAllText(dosya);
 
         List<Musteri> liste = JsonSerializer.Deserialize<List<Musteri>>(dosyadanOkunan);
 

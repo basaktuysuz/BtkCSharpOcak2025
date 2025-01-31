@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel;
 
-namespace u44_banka_uyg;
+using u45_banka_uyg;
+
 
 public class MenuEkrani
 {

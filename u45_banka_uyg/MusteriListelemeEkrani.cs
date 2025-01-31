@@ -1,6 +1,6 @@
 using System;
 
-namespace u45_banka_uyg;
+using u45_banka_uyg;
 
 public class MusteriListelemeEkrani
 {
@@ -11,7 +11,7 @@ public class MusteriListelemeEkrani
 
         foreach (Musteri m in liste)
         {
-            m.yazdır();
+            m.Yazdir();
         }
 
         Console.WriteLine("Müsteriler listelendi.Devam etmek için tuşa bas");
