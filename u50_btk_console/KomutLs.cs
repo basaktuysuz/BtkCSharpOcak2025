@@ -1,4 +1,4 @@
-﻿namespace u49_btk_console;
+﻿namespace u50_btk_console;
 
 public class KomutLs
 {

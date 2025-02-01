@@ -1,5 +1,5 @@
 ﻿
-using u49_btk_console;
+using u50_btk_console;
 
 //Bu konsol için aşağıdaki komutlarıda siz ekleyin
 //clear : ekranı temizler
