@@ -105,6 +105,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u50_btk_console", "u50_btk_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u51_json_formati", "u51_json_formati\u51_json_formati.csproj", "{361668CF-EE48-4E7D-9D9C-8806CB1D5AEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "u52_ef_telefon_rehberi", "u52_ef_telefon_rehberi\u52_ef_telefon_rehberi.csproj", "{7C3D3378-B1C7-49DA-89F1-0617AE32BB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_App", "Web_App\Web_App.csproj", "{0DA226C5-145A-4A7F-AB7D-ADFC6A154090}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +319,14 @@ Global
 		{361668CF-EE48-4E7D-9D9C-8806CB1D5AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{361668CF-EE48-4E7D-9D9C-8806CB1D5AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{361668CF-EE48-4E7D-9D9C-8806CB1D5AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3D3378-B1C7-49DA-89F1-0617AE32BB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3D3378-B1C7-49DA-89F1-0617AE32BB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3D3378-B1C7-49DA-89F1-0617AE32BB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3D3378-B1C7-49DA-89F1-0617AE32BB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA226C5-145A-4A7F-AB7D-ADFC6A154090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA226C5-145A-4A7F-AB7D-ADFC6A154090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA226C5-145A-4A7F-AB7D-ADFC6A154090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA226C5-145A-4A7F-AB7D-ADFC6A154090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
